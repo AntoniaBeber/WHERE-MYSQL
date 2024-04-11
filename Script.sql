@@ -24,14 +24,3 @@ values
 (10,'Alysson','1966/06/06',56,'Solteiro','Masculino');
 
 
-SELECT * FROM INFOS;
-
-SELECT  * FROM INFOS  ORDER BY idade DESC LIMIT 1;
-SELECT  * FROM INFOS  ORDER BY idade LIMIT 1;
-SELECT  * FROM INFOS WHERE nome_completo LIKE 'A%';
-SELECT  * FROM INFOS WHERE nome_completo LIKE '%S';
-SELECT  * FROM INFOS WHERE SEXO = 'Feminino';
-SELECT  * FROM INFOS WHERE estado_civil = 'Solteiro';
-SELECT  * FROM INFOS WHERE data_de_nascimento  between '1990/01/01' and '2023/04/10';
-SELECT  * FROM INFOS WHERE idade  between 26 and 50 ORDER BY idade DESC;
-
